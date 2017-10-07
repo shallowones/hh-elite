@@ -1,0 +1,297 @@
+extends layout
+
+block content
+
+  .page
+    header.header
+      .header-top
+        .wrapper
+          .head
+            .head__item.menu-block
+              button(type="button", data-target="#menu").menu.js-menu
+              #menu.form.small
+                button(type="button").close
+                .social.mobile
+                  a(href="#").social__item.fb
+                  a(href="#").social__item.insta
+                  a(href="#").social__item.tel
+                .menu-items
+                  a(href="#").menu__item Пункт меню №1
+                  a(href="#").menu__item Пункт меню №2
+                  a(href="#").menu__item Пункт меню №3
+                  a(href="#").menu__item Пункт меню №4
+                  a(href="#").menu__item Пункт меню №5
+                .head__item.numbers.mobile Позвоните нам:
+                  span +7 (812) 500-52-70
+                  span +7 (812) 500-52-26
+              .social
+                a(href="#").social__item.fb
+                a(href="#").social__item.insta
+                a(href="#").social__item.tel
+            a(href="#").head__item
+              .logo HH Elite
+                span Эксперты в недвижимости
+            .head__item.numbers Позвоните нам:
+              span +7 (812) 500-52-70
+              span +7 (812) 500-52-26
+          .title
+            .title-top Мы продаем квартиры и апартаменты<br>премиум и бизнес-класса
+            .title-bottom в лучших жилых комплексах Санкт-Петербурга
+            button(type="button", data-target="#form").button.js-form Скачать презентацию
+          .line
+      .header-middle.wrapper
+        .lines.top
+        .lines.bottom
+        .desc Именно эти ЖК клиенты<br>буквально требуют показать:
+        .complex(style="background-image: url('images/complex-1.jpg')")
+          .complex-info
+            .complex-info-left
+              .complex__wrap
+                .complex__type Жилой комплекс
+                .complex__name «Legenda Дальневосточного»
+                .complex__desc
+                  .complex__desc-left 132 квартиры в жилом комплексе бизнес класса<br>по цене от 6,70 млн. рублей
+                  .complex__desc-right Район: Приморский р-н<br>Дата сдачи: 30.06.2018
+            .complex-info-right
+              .complex-info-block
+                .complex__title Ближайшее метро:
+                .complex-list
+                  .complex-list__item м. Чёрная речка
+                  .complex-list__item м. Старая Деревня
+                  .complex-list__item м. Крестовский остров
+                .complex__build Тип здания: Кирпич + Монолит
+              .complex-info-block
+                .complex__title Благоприятная инфраструктура:
+                .complex-list.dots
+                  .complex-list__item Больницы
+                    span 9
+                  .complex-list__item Школы
+                    span 18
+                  .complex-list__item Детские сады
+                    span 23
+                  .complex-list__item Аптеки
+                    span 29
+                  .complex-list__item Торговые центры
+                    span 27
+                  .complex-list__item Общепит
+                    span 39
+                  .complex-list__item Продукты
+                    span 28
+                  .complex-list__item АЗС
+                    span 20
+                  .complex-list__item Банки
+                    span 22
+                a(href="#").button.black Скачать презентацию
+        .complex(style="background-image: url('images/complex-2.jpg')")
+          .complex-info
+            .complex-info-left
+              .complex__wrap
+                .complex__type Жилой комплекс
+                .complex__name «Legenda Дальневосточного»
+                .complex__desc
+                  .complex__desc-left 132 квартиры в жилом комплексе бизнес класса<br>по цене от 6,70 млн. рублей
+                  .complex__desc-right Район: Приморский р-н<br>Дата сдачи: 30.06.2018
+            .complex-info-right
+              .complex-info-block
+                .complex__title Ближайшее метро:
+                .complex-list
+                  .complex-list__item м. Чёрная речка
+                  .complex-list__item м. Старая Деревня
+                  .complex-list__item м. Крестовский остров
+                .complex__build Тип здания: Кирпич + Монолит
+              .complex-info-block
+                .complex__title Благоприятная инфраструктура:
+                .complex-list.dots
+                  .complex-list__item Больницы
+                    span 9
+                  .complex-list__item Школы
+                    span 18
+                  .complex-list__item Детские сады
+                    span 23
+                  .complex-list__item Аптеки
+                    span 29
+                  .complex-list__item Торговые центры
+                    span 27
+                  .complex-list__item Общепит
+                    span 39
+                  .complex-list__item Продукты
+                    span 28
+                  .complex-list__item АЗС
+                    span 20
+                  .complex-list__item Банки
+                    span 22
+                a(href="#").button.black Скачать презентацию
+
+      .header-bottom
+        .home.wrapper
+          .home__title Узнайте лучший жилой комплекс <span>Санкт - Петербурга</span>,<br>
+            | подходящий под все Ваши индивидуальные запросы
+          .home__desc Пройдите простой тест всего из 5 вопросов и получите варианты квартир в ЖК,<br>
+            | подходящие под все Ваши индивидуальные запросы
+          button(type="button", data-target="#form-success").button.white.js-form Пройти онлайн-тест
+    main.main
+      .works.wrapper-second
+        .works-item(style="background-image: url('images/work-1.jpg')")
+          .works-item__label
+            img(src="images/work-label-1.png")
+          .works-item__desc
+            p Резиденция МОНЭ» — жилой дом премиум-класса в пресненском районе Москвы.
+              | Окна каждой квартиры выходят на 3 стороны света. Объект сдан.
+            p Укажите свои контактные данные для мгновенного скачивания полной PDF-презентации объекта
+            .works-item__desc-price Цена — от 32 000 000 рублей.
+            a(href="#").button.presentation Скачать презентацию
+        .works-item(style="background-image: url('images/work-2.jpg')")
+          .works-item__label
+            img(src="images/work-label-2.png")
+          .works-item__desc
+            p Резиденция МОНЭ» — жилой дом премиум-класса в пресненском районе Москвы.
+              | Окна каждой квартиры выходят на 3 стороны света. Объект сдан.
+            p Укажите свои контактные данные для мгновенного скачивания полной PDF-презентации объекта
+            .works-item__desc-price Цена — от 32 000 000 рублей.
+            a(href="#").button.presentation Скачать презентацию
+        .works-item(style="background-image: url('images/work-3.jpg')")
+          .works-item__label
+            img(src="images/work-label-3.png")
+          .works-item__desc
+            p Резиденция МОНЭ» — жилой дом премиум-класса в пресненском районе Москвы.
+              | Окна каждой квартиры выходят на 3 стороны света. Объект сдан.
+            p Укажите свои контактные данные для мгновенного скачивания полной PDF-презентации объекта
+            .works-item__desc-price Цена — от 32 000 000 рублей.
+            a(href="#").button.presentation Скачать презентацию
+        .works-item(style="background-image: url('images/work-4.jpg')")
+          .works-item__label
+            img(src="images/work-label-4.png")
+          .works-item__desc
+            p Резиденция МОНЭ» — жилой дом премиум-класса в пресненском районе Москвы.
+              | Окна каждой квартиры выходят на 3 стороны света. Объект сдан.
+            p Укажите свои контактные данные для мгновенного скачивания полной PDF-презентации объекта
+            .works-item__desc-price Цена — от 32 000 000 рублей.
+            a(href="#").button.presentation Скачать презентацию
+        .works-item(style="background-image: url('images/work-1.jpg')")
+          .works-item__label
+            img(src="images/work-label-1.png")
+          .works-item__desc
+            p Резиденция МОНЭ» — жилой дом премиум-класса в пресненском районе Москвы.
+              | Окна каждой квартиры выходят на 3 стороны света. Объект сдан.
+            p Укажите свои контактные данные для мгновенного скачивания полной PDF-презентации объекта
+            .works-item__desc-price Цена — от 32 000 000 рублей.
+            a(href="#").button.presentation Скачать презентацию
+        .works-item(style="background-image: url('images/work-2.jpg')")
+          .works-item__label
+            img(src="images/work-label-2.png")
+          .works-item__desc
+            p Резиденция МОНЭ» — жилой дом премиум-класса в пресненском районе Москвы.
+              | Окна каждой квартиры выходят на 3 стороны света. Объект сдан.
+            p Укажите свои контактные данные для мгновенного скачивания полной PDF-презентации объекта
+            .works-item__desc-price Цена — от 32 000 000 рублей.
+            a(href="#").button.presentation Скачать презентацию
+
+
+
+
+      .catalog
+        .wrapper
+          .catalog__desc Полный каталог новостроек<br>
+            span Санкт - Петербурга
+            |  от компании
+          .catalog__company HH Elite
+          a(href="#").button.black Скачать каталог
+
+
+      .test.wrapper
+        .test__img
+          img(src="images/test.jpg")
+        .test__desc
+          .test-title Узнайте лучший жилой комплекс <span>Санкт - Петербурга</span>,
+            |  подходящий под все Ваши индивидуальные запросы
+          p Пройдите простой тест всего из 5 вопросов и получите варианты квартир в ЖК,
+            |  подходящие под все Ваши индивидуальные запросы
+          .test-go
+            .test-go-left
+              a(href="#").button.border Перейти к онлайн - тесту
+            .test-go-right
+              .useful Полезные материалы<br><b>в подарок</b>
+          .test-info
+            p 5 пользователей сейчас проходят онлайн - тест<br>
+              | За последние 24 часа тест был пройдет <b>76 раз(а)</b>
+            // для индикатора имеются классы .green, .yellow и .red
+            .test-info__indicator.green Высокий спрос
+      .books.wrapper
+        .books__item.closed
+          .books-top
+            .books-left
+              .books__item-line <b>Каталог</b> новостроек Санкт - Петербурга
+              .books__item-line в формате PDF
+            .books-right
+              img(src="images/book-1.png").books__img
+          .books-close Доступно после прохождения теста
+        .books__item
+          .books-top
+            .books-left
+              .books__item-line <b>Каталог</b> новостроек Санкт - Петербурга
+              .books__item-line в формате PDF
+            .books-right
+              img(src="images/book-2.png").books__img
+          a(href="#").button.border Скачать книгу
+        .books__item.closed
+          .books-top
+            .books-left
+              .books__item-line <b>Каталог</b> новостроек Санкт - Петербурга
+              .books__item-line в формате PDF
+            .books-right
+              img(src="images/book-3.png").books__img
+          .books-close Доступно после прохождения теста
+
+
+
+    footer.footer
+      .logo HH Elite
+        span Эксперты в недвижимости
+      .contacts.wrapper
+        .contacts-left Контакты
+        .contacts-right
+          .contacts-right__desc Санкт-Петербург,<br>Малый проспект Васильевского острова,<br>22 БЦ "Соверен"
+          .contacts-right__desc
+            span +7 (812) 500-52-70
+            span +7 (812) 500-52-26
+      .contacts-time Ежедневно с 09:00 до 21:00
+      // при интеграции верстки атрибут style убрать
+      .map(style="background-image: url('images/map.jpg')")
+        .map-logo
+        button(type="button", data-selector=".map", data-text="Свернуть карту").map__button.js-map
+          | Посмотреть карту
+
+      .bottom-block
+        .wrapper
+          .bottom-block-left
+            .logo HH Elite
+              span Эксперты в недвижимости
+
+            p Обращаем ваше внимание на то, что данный интернет-сайт носит<br>
+              | исключительно информационный характер и ни при каких условиях<br>
+              | не является публичной офертой, определяемой положением Статьи 437 (2)<br>
+              | Гражданского кодекса Российской Федерации<br>
+          .bottom-block-right
+            button(type="button").button.presentation.border Заказать звонок
+            .bottom-block-phones
+              span +7 (812) 500-52-70
+              span +7 (812) 500-52-26
+
+
+    #form.display-none
+      form(action="#").form
+        .form-title Оставьте заявку<br>и получите материалы в формате PDF
+        p.with-mar Скачивание начнется автоматически
+        input(title="Имя", name="name", placeholder="Введите Ваше имя:").form__input
+        input(title="Телефон", name="phone", placeholder="Введите Ваш телефон:").form__input
+        input(title="Почта", name="email", placeholder="Введите Вашу почту:").form__input
+        button(name="download").form__button Скачать PDF материал
+        .form-desc Нажимая на "Скачать PDF материал" я даю своё согласие на передачу<br>
+          | персональных данных согласно <a href="#">Политике конфиденциальности</a><br>
+          | и <a href="#">Пользовательскому соглашению</a>
+        button(type="button").close
+    #form-success.display-none
+      form(action="#").form
+        .form-title.border Ваша заявка<br>успешно отправлена
+        p Наш менеджер<br>свяжется с Вами в ближайшее время
+        button(type="button").close

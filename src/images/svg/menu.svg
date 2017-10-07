@@ -1,0 +1,14 @@
+<svg width="43" height="44" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+ </metadata>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAsCAQAAABWUYnzAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhCgcMOCWTKtNHAAAAaklEQVRIx+3XMQqAMBBE0VnNRdT7X0kvEomFWAZS7AcDs/0+hixTJNouYKJVgi2SpCvV3L60JZWt0kI8gVmzMNspwt3G1tf4Q9peitGZ62RmOdZ14NKanY51Hbi0Zs2i7FuHI5vFvnsnwT6pIhCGXNDgxAAAAABJRU5ErkJggg==" height="44" width="43" id="Group_1"/>
+  <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAsCAYAAAD8WEF4AAAAlUlEQVRYhe3ZsQ2AMAxEUYdkEWD/lWCRRKZNGoilnCyjexUFEl9uriCp6iFBJFWt3hGzSvd8u1V820XGy5aXl71VEZHNu8KCsSiMRWEsSqhY0xC01nTlx3POyfL+fy9rvcRqoS7LWBTGooSK5SigcBRQGIvCWJRQsRwFFI4CCmNRGIvCWJRQsf0onG4Vk8L9tLu8I2Y9ttAekLwkTFYAAAAASUVORK5CYII=" id="svg_1" height="44" width="43" y="0" x="0"/>
+ </g>
+</svg>
